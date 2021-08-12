@@ -299,7 +299,7 @@ vendors:
 # UI
 banner:
   enable: true
-  title: 云游君的小站
+  title: 柏润生的破站
   src: /js/ui/banner.js
   border: true
   cloud:
