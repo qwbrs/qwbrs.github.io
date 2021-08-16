@@ -1,3 +1,8 @@
+# Favicon
+# ---------------
+favicon: /bai.svg
+
+
 # Social Links.
 social:
   # - name: RSS
@@ -94,3 +99,14 @@ banner:
     enable: true
     icon: icon-arrow-down-s-line
 
+
+cdn:
+  pre: https://cdn.jsdelivr.net/gh/qwbrs/qwbrs.github.io
+#背景图片  
+
+bg_image:
+  enable: true
+  url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg # recomend image related to your mode
+  dark: https://cdn.jsdelivr.net/gh/qwbrs/cdn/tree/main/img/bg1.jpg  #/bg1.jpg #
+  # blur: 30px
+  opacity: 1
