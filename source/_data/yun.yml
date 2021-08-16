@@ -80,3 +80,17 @@ avatar:
     emoji: 😊
     message: 究极无敌人中人
 
+
+# UI
+banner:
+  enable: true
+  title: 木白的小破站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
