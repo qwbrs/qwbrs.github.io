@@ -119,5 +119,5 @@ bg_image:
 
 
 cdn:
-  pre: https://cdn.jsdelivr.net/gh/qwbrs/qwbrs.github.io
+  pre: https://cdn.jsdelivr.net/gh/qwbrs/qwbrs.github.io@latest
   
