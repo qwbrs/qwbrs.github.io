@@ -11,9 +11,9 @@ social:
   #   link: /atom.xml # config.feed.path
   #   icon: icon-rss-line
   #   color: orange
-  - name: QQ 群 1050458482
+  - name: QQ  3201280235
     # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
-    link: https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi
+    link: https://user.qzone.qq.com/3201280235/infocenter
     icon: icon-qq-line
     color: "#12B7F5"
   # - name: GitHub
@@ -83,7 +83,7 @@ avatar:
   status:
     enable: false
     emoji: 😊
-    message: 究极无敌人中人
+    message: 必须承认自己有很多缺点
 
 
 # UI
@@ -100,13 +100,31 @@ banner:
     icon: icon-arrow-down-s-line
 
 
-cdn:
-  pre: https://cdn.jsdelivr.net/gh/qwbrs/qwbrs.github.io
+
 #背景图片  
 
 bg_image:
   enable: true
-  url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg # recomend image related to your mode
-  dark: https://cdn.jsdelivr.net/gh/qwbrs/cdn/tree/main/img/bg1.jpg  #/bg1.jpg #
+  url: /bg2.jpg # recomend image related to your mode
+  dark: /bg1.jpg #https://cdn.jsdelivr.net/gh/qwbrs/cdn@main/img/bg1.jpg  #
   # blur: 30px
   opacity: 1
+
+
+ live_time:
+    enable: true
+    prefix: 本博客以BRS到了80岁时百米冲刺的速度运行
+    suffix: (●'◡'●)
+    start_time: "2021-08-12T00:00:00"
+
+
+cdn:
+  pre: https://cdn.jsdelivr.net/gh/qwbrs/qwbrs.github.io
+  css:
+    yun-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.25/dist/yun/yun-markdown.min.css
+    # github-markdown-css: https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css
+  js:
+    base:
+    async:
+      iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
+    defer:
