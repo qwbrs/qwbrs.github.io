@@ -111,13 +111,10 @@ bg_image:
   opacity: 1
 
 
- live_time:
+live_time:
     enable: true
     prefix: 本博客以BRS到了80岁时百米冲刺的速度运行
     suffix: (●'◡'●)
     start_time: "2021-08-12T00:00:00"
 
 
-cdn:
-  pre: https://cdn.jsdelivr.net/gh/qwbrs/qwbrs.github.io@latest
-  
