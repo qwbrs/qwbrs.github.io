@@ -120,11 +120,4 @@ bg_image:
 
 cdn:
   pre: https://cdn.jsdelivr.net/gh/qwbrs/qwbrs.github.io
-  css:
-    yun-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.25/dist/yun/yun-markdown.min.css
-    # github-markdown-css: https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css
-  js:
-    base:
-    async:
-      iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
-    defer:
+  
