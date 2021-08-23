@@ -1,6 +1,11 @@
+# ---------------
+# mode: light | dark | auto | time  /亮暗模式
+mode: dark
+
+
 # Favicon
 # ---------------
-favicon: /bai.svg
+favicon: /yun.svg
 
 
 # Social Links.
@@ -13,7 +18,7 @@ social:
   #   color: orange
   - name: QQ  3201280235
     # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
-    link: https://user.qzone.qq.com/3201280235/infocenter
+    # link: https://user.qzone.qq.com/3201280235/infocenter
     icon: icon-qq-line
     color: "#12B7F5"
   # - name: GitHub
@@ -81,9 +86,9 @@ avatar:
   opacity: 1
   mickey_mouse: false
   status:
-    enable: false
+    enable: true
     emoji: 😊
-    message: 必须承认自己有很多缺点
+    message: 身体健康万事如意
 
 
 # UI
@@ -91,7 +96,7 @@ banner:
   enable: true
   title: 木白的小破站
   src: /js/ui/banner.js
-  border: true
+  border: false
   cloud:
     enable: true
     color: "white"
@@ -117,4 +122,36 @@ live_time:
     suffix: (●'◡'●)
     start_time: "2021-08-12T00:00:00"
 
+# 页脚起始年份
+footer:
+  since: 2021
 
+
+
+# custom your color in fireworks  鼠标烟火
+fireworks:
+  enable: true
+  src: /js/ui/fireworks.js
+  colors:
+    - "255, 182, 193"
+    - "138, 43, 226"
+    - "216, 191, 216"
+
+# 语句
+say:
+  enable: true
+  # api: https://say.elpsy.cn/sentences.json
+  # /data/sentences.json
+  api: /say/sentences.json # https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  # src is the script
+  src: /js/say.js
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: false
+    api: https://v1.hitokoto.cn
+
+pages:
+  # - name: 我的小伙伴们
+  #   url: /links/
+  #   icon: icon-genderless-line
+  #   color: dodgerblue
